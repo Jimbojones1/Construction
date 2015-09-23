@@ -1,0 +1,61 @@
+body {
+  max-width: 1400px;
+  
+  margin: 0;
+}
+
+
+@media (min-width: 360px) {
+  #wrapper {
+    width:  99%;
+
+  }
+  .logo {
+    height:  100px;
+    width: auto;
+  }
+
+  .logo img {
+    width:  100%;
+    height: auto;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+
+  }
+
+  nav {
+    margin-top: 50px;
+    margin-left: 32%;
+    color: black;
+  }
+
+  nav a {
+    text-decoration: none;
+    color:  black;
+  }
+
+  section {
+    height: 320px;
+    border-radius: 3px solid black;
+    padding: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(91, 130, 152);
+  }
+
+  .testimontials {
+    font-family:  'Dancing Script', cursive;
+  }
+
+  footer {
+    height:  50px;
+    background-color: #e36740;
+    text-align: center;
+  }
+
+
+
+
+}/*end of wrapper 360 */
